@@ -15,6 +15,14 @@
     
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash",
+      
+      "editor.tabSize": 4,
+      
+      "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
+      },          
     },
 
     "extensions": [
