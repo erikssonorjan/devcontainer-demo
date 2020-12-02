@@ -18,6 +18,7 @@
     },
 
     "extensions": [
+      "fivepointseven.node-version"
     ],
 
     "postCreateCommand": "npm install -g nodemon",
