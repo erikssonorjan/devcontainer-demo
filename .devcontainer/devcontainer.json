@@ -1,0 +1,30 @@
+{
+    "name": "node-demo-devcontainer",
+    
+    "build": {
+      "dockerfile": "Dockerfile",
+      "args": { 
+        "VERSION": "14",
+        "USERNAME": "node"
+      }
+    },
+    
+    "runArgs": [
+      "--name", "node-demo-devcontainer"
+    ],
+    
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash",
+    },
+
+    "extensions": [
+    ],
+
+    "postCreateCommand": "npm install -g nodemon",
+
+    "remoteUser": "node",
+
+    "forwardPorts":  [
+      4321
+    ]
+ }
